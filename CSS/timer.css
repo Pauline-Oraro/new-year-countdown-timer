@@ -1,0 +1,55 @@
+body{
+    background-image: url(/IMAGES/new-year.jpg);
+    background-size: cover;
+    background-position: center, center;
+    color: white;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    font-weight: bolder;
+
+}
+
+.count-down{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.timer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+small {
+    padding-top: 5px;
+    font-size: 1.55rem;
+    text-transform: uppercase;
+    display: block;
+}
+
+.message {
+    font-size: 60px;
+    font-size: bolder;
+}
+
+.year {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .count-down{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
